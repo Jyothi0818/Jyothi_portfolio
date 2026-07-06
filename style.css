@@ -158,3 +158,16 @@ footer{
 .certificate-card a:hover{
     background:#1d4ed8;
 }
+.hobby-link{
+    background:#2563eb;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    display:inline-block;
+    transition:0.3s;
+}
+
+.hobby-link:hover{
+    background:#1d4ed8;
+}
