@@ -120,10 +120,41 @@ li{
 #contact{
     text-align:center;
 }
+/* Existing CSS */
 
 footer{
     background:#0f172a;
     color:white;
     text-align:center;
     padding:20px;
+}
+
+/* Add this below the existing CSS */
+
+.certificate-card{
+    width:250px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.certificate-card img{
+    width:100%;
+    border-radius:8px;
+}
+
+.certificate-card a{
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    color:white;
+    background:#2563eb;
+    padding:8px 15px;
+    border-radius:5px;
+}
+
+.certificate-card a:hover{
+    background:#1d4ed8;
 }
